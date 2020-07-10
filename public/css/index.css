@@ -90,11 +90,7 @@ input:focus {
     color: hsl(0, 100%, 74%);
 }
 
-.form-control.error input:focus {
-    color: hsl(249, 10%, 26%);    
-}
-
-.form-control.color-change input {
+.form-control.error input:focus, .form-control.color-change input {
     color: hsl(249, 10%, 26%);    
 }
 
